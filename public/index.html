@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>make user</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+
+
+</head>
+<body onload="onLoad()">
+<header>
+    <h1>Make User</h1>
+</header>
+
+<main>
+
+    <section id="log-sign-in-section">
+        <label for="user-name">User Name</label>
+        <input id="user-name" type="text" >
+
+        <label for="pass">Password</label>
+        <input id="pass" type="password">
+
+        <input id="log-in-button" type="button" value="Login" onclick="onLogClicked()">
+        <input id="sign-in-button" type="button" value="Sign In" onclick="onSignClicked()">
+    </section>
+
+    <button onclick="onSecretClicked()">Click Me To Watch A Secret</button>
+    <p id="the-secret"></p>
+
+</main>
+</body>
+</html>
